@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeDoAnDrOiD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <button class="dark-mode-toggle" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container">
+        <div class="profile">
+            <img src="img/profile.png" alt="Profile Picture" loading="lazy">
+            <h2>MeDoAnDrOiD</h2>
+            <p>اللهم إنا لا نملك لفلسطين إلا الدعاء فيارب لا ترد لنا دعاء  اللهم لا تخيب لنا رجاء وأنت أرحم الراحمين.
+                اللهم انصر إخواننا في فلسطين نصراً تعز به الإسلام والمسلمين 🤲</p>
+        </div>
+
+        <form id="messageForm">
+            <textarea id="messageInput" name="message" rows="4" placeholder="اكتب رسالتك هنا..." required></textarea>
+            <button type="submit" class="palestine-button">
+                <span>إرسال</span>
+                <div class="spinner hidden" id="spinner"></div>
+            </button>
+        </form>
+
+        <div class="footer">
+            Designed and developed by <a href="https://t.me/MeDoAnDrOiD" target="_blank">Mohamed Ayman</a> © 2024
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
